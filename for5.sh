@@ -12,4 +12,11 @@ do
 echo "month $i: $var"
 ((i++))
 done
+i=1
+for var in `cat seasons.txt`
+do
+
+echo "seasons $i: $var"
+((i++))
+done
 
