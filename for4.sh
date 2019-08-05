@@ -16,4 +16,13 @@ else
 echo "$n is odd"
 fi
 done
+for (( n=10; n<=15; n++ ))
+do
+if (( $n%2==0 ))
+then
+echo "$n is even"
+else
+echo "$n is odd"
+fi
+done
 
